@@ -1,0 +1,34 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\Projects;
+use Inertia\Inertia;
+
+class ProjectsController extends Controller
+{
+    // public function index()
+    // {
+    //     request()->validate([
+    //         // 'direction' => ['in:asc,desc'],
+    //         'field' => ['in:name,shortname,startingdate,yearstart,yearend,teamgroupname']
+    //     ]);
+
+    //     $query = Projects::query();
+
+    //     // if (request('search')) {
+    //     //     $query->where('name', 'LIKE', '%'.request('search').'%');
+    //     // } ->withQueryString()
+
+    //     if (request()->has(['field', 'direction'])) {
+    //         $query->orderBy(request('field'), request('direction'));
+    //     }
+
+    //     return Inertia::render('Project', [
+    //         'projects' => $query->paginate(),
+    //         'filters' => request()->all(['search', 'field', 'direction'])
+    //     ]);
+    // }
+
+
+}
